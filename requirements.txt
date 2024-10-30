@@ -1,5 +1,5 @@
 flask
 pandas
-sklearn
+skikit-learn
 seaborn
 matplotlib
