@@ -9,7 +9,7 @@ from sklearn.preprocessing import StandardScaler
 app = Flask(__name__)
 
 # Load dữ liệu và huấn luyện mô hình (mô phỏng)
-file_path = r'C:\Users\Admin\Desktop\ML\last\housing.csv'
+file_path = 'housing.csv'
 housing_data = pd.read_csv(file_path, delim_whitespace=True)
 column_names = ["CRIM", "ZN", "INDUS", "CHAS", "NOX", "RM", "AGE", "DIS", "RAD", "TAX", "PTRATIO", "B", "LSTAT", "MEDV"]
 housing_data.columns = column_names
