@@ -10,7 +10,7 @@ from sklearn.ensemble import StackingRegressor
 from sklearn.metrics import mean_squared_error, r2_score
 
 # Load dữ liệu
-file_path = r'C:\Users\Admin\Desktop\ML\last\housing.csv'
+file_path = 'housing.csv'
 housing_data = pd.read_csv(file_path, delim_whitespace=True)
 
 # Gán tên cột
